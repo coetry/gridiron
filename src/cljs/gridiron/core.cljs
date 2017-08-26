@@ -19,12 +19,12 @@
 (defn page [ratom]
   [:div
    [g/container
-    [[g/letter "a" "#333333" "#FFA3D7"]
-     [g/letter "b" "#333333" "#9EEBCF"]
-     [g/letter "c" "#333333" "#96CCFF"]
-     [g/letter "d" "#333333" "#FFDFDF"]
-     [g/letter "e" "#333333" "#555555"]
-     [g/letter "f" "#333333" "#AAAAAA"]]]
+    [[g/letter "a" "#333333" "#FFA3D7" [2 3 1 2]]
+     [g/letter "b" "#333333" "#9EEBCF" [2 3 2 3]]
+     [g/letter "c" "#333333" "#96CCFF" [3 4 2 3]]
+     [g/letter "d" "#333333" "#FFDFDF" [1 2 1 2]]
+     [g/letter "e" "#333333" "#555555" [1 2 2 3]]
+     [g/letter "f" "#333333" "#AAAAAA" [3 4 1 2]]]]
 
    [:br]
    
