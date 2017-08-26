@@ -26,11 +26,10 @@
      child)])
 
 (defn letter [l color bg-color]
- [:h1 {:style {:text-transform "uppercase"
-               :background-color bg-color
-               :color color
-               :height "90%"
-               :padding-top "20px"
-               :padding-left "20px"}}
-        
-   l])
+  [:div {:style {:text-transform "uppercase"
+                 :background-color bg-color
+                 :color color
+                 :height "90%"
+                 :padding-top "20px"
+                 :padding-left "20px"}} 
+   [:h1 l]])
