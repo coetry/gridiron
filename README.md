@@ -1,6 +1,6 @@
 # gridiron
 
-A [reagent](https://github.com/reagent-project/reagent) application designed to ... well, that part is up to you.
+Hacking on Figwheel + Reagent + Garden to explore CSS Grids
 
 ## Development Mode
 
