@@ -9,7 +9,4 @@
           :background-color "indianred"
           :color "papayawhip"
           :margin "0"
-          :height "100%"}]
-
-  [:.header {:font-size ""
-             :text-shadow "3px 3px gray"}])
+          :height "100%"}])

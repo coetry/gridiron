@@ -15,12 +15,13 @@
   [children]
   
   [:div {:style {:display "grid"
-                 :grid-template-columns "1fr"
-                 :grid-template-rows "1fr"
+                 :grid-template-columns "1fr 1fr 1fr"
+                 :grid-gap "10px"
                  :background-color "indianred"
                  :top "0"
                  :bottom "0"
-                 :height "100vh"}}
+                 :height "100vh"
+                 :margin"5% 5% 5% 5%"}}
    (for [child children]
      child)])
 
@@ -28,6 +29,8 @@
  [:h1 {:style {:text-transform "uppercase"
                :background-color bg-color
                :color color
-               :height "100%"}}
+               :height "90%"
+               :padding-top "20px"
+               :padding-left "20px"}}
         
    l])

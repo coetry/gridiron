@@ -22,7 +22,19 @@
     [[g/letter "a" "#333333" "#FFA3D7"]
      [g/letter "b" "#333333" "#9EEBCF"]
      [g/letter "c" "#333333" "#96CCFF"]
-     [g/letter "d" "#333333" "#FFDFDF"]]]])
+     [g/letter "d" "#333333" "#FFDFDF"]
+     [g/letter "e" "#333333" "#555555"]
+     [g/letter "f" "#333333" "#AAAAAA"]]]
+
+   [:br]
+   
+   [g/container
+    [[g/letter "g" "#333333" "#FFA3D7"]
+     [g/letter "h" "#333333" "#9EEBCF"]
+     [g/letter "i" "#333333" "#96CCFF"]
+     [g/letter "j" "#333333" "#FFDFDF"]
+     [g/letter "k" "#333333" "#555555"]
+     [g/letter "l" "#333333" "#AAAAAA"]]]])
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
