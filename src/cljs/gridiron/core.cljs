@@ -19,10 +19,10 @@
 (defn page [ratom]
   [:div
    [g/container
-    [[g/header "bismil-Lah"]
-     [g/letter "a"]
-     [g/letter "b"]
-     [g/letter "c"]]]])
+    [[g/letter "a" "#333333" "#FFA3D7"]
+     [g/letter "b" "#333333" "#9EEBCF"]
+     [g/letter "c" "#333333" "#96CCFF"]
+     [g/letter "d" "#333333" "#FFDFDF"]]]])
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

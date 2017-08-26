@@ -8,7 +8,8 @@
   [:body {:font-family "Avenir"
           :background-color "indianred"
           :color "papayawhip"
-          :margin "0"}]
+          :margin "0"
+          :height "100%"}]
 
-  [:.header {:font-size "3em"
+  [:.header {:font-size ""
              :text-shadow "3px 3px gray"}])
