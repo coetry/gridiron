@@ -8,7 +8,7 @@
    text])
 
 
-(defn container 
+(defn grid-container 
   "Takes a vector of child components
    and makes wraps them in a grid"
 
@@ -23,6 +23,25 @@
                  :margin"5% 5% 5% 5%"}}
    (for [child children]
      child)])
+
+(defn line-based [comp color bg-color grid-pos-vec]
+  [:div {:style {:text-transform "uppercase"
+                 :background-color bg-color
+                 :color color
+                 :height "90%"
+                 :padding-top "20px"
+                 :padding-left "20px"
+                 :grid-column (str (nth grid-pos-vec 0)
+                                   " / "
+                                   (nth grid-pos-vec 1))
+                 :grid-row (str (nth grid-pos-vec 2)
+                                   " / "
+                                   (nth grid-pos-vec 3))
+                 :border-radius 5}} 
+   comp])
+
+
+
 
 (defn letter [l color bg-color grid-pos-vec]
   [:div {:style {:text-transform "uppercase"

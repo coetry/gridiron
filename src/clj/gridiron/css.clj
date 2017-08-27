@@ -6,6 +6,6 @@
 
 (defstyles screen
   [:body {:font-family "Avenir"
-          :color "papayawhip"
+          :color "#333"
           :margin "0"
           :height "100%"}])
