@@ -17,17 +17,17 @@
 
 
 (defn page [ratom]
-  [:div {:style {:margin "40px"}}
+  [:div {:style {:margin "5%"}}
 
-   [:h1 "Line Based Placement (Shorthand)"]
+   [:h1 "Line Based Placement (Grid Col/Row Shorthand)"]
    
    [g/grid-container
-    [[g/line-based [:p "a"] "#333333" "#FFA3D7" [2 3 1 2]]
-     [g/line-based [:p "b"] "#333333" "#9EEBCF" [2 3 2 3]]
-     [g/line-based [:p "c"] "#333333" "#96CCFF" [3 4 2 3]]
-     [g/line-based [:p "d"] "#333333" "#FFDFDF" [1 2 1 2]]
-     [g/line-based [:p "e"] "#333333" "#555555" [1 2 2 3]]
-     [g/line-based [:p "f"] "#333333" "#AAAAAA" [3 4 1 2]]]]
+    [[g/line-based-grid-col-row-short [:p "a"] "#333333" "#FFA3D7" [2 3 1 2]]
+     [g/line-based-grid-col-row-short [:p "b"] "#333333" "#9EEBCF" [2 3 2 3]]
+     [g/line-based-grid-col-row-short [:p "c"] "#333333" "#96CCFF" [3 4 2 3]]
+     [g/line-based-grid-col-row-short [:p "d"] "#333333" "#FFDFDF" [1 2 1 2]]
+     [g/line-based-grid-col-row-short [:p "e"] "#333333" "#555555" [1 2 2 3]]
+     [g/line-based-grid-col-row-short [:p "f"] "#333333" "#AAAAAA" [3 4 1 2]]]]
 
    [:br]
    
