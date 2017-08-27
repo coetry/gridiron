@@ -44,7 +44,17 @@
      [g/line-based-grid-col-row-short [:p "b"] "#333333" "#9EEBCF" [3 5 1 2]]
      [g/line-based-grid-col-row-short [:p "c"] "#333333" "#96CCFF" [1 2 2 3]]
      [g/line-based-grid-col-row-short [:p "d"] "#333333" "#FFDFDF" [2 5 2 3]]
-     [g/line-based-grid-col-row-short [:p "e"] "#333333" "#AAAAAA" [1 5 3 4]]]]])
+     [g/line-based-grid-col-row-short [:p "e"] "#333333" "#AAAAAA" [1 5 3 4]]]]
+
+   [:h1 "Explicit 4 Col, Implicit Rows"]
+
+   [g/four-col-grid-container
+    [[g/line-based-grid-col-row-short [:p "a"] "#333333" "#FFA3D7" [1 3 1 2]]
+     [g/line-based-grid-col-row-short [:p "b"] "#333333" "#9EEBCF" [3 4 1 3]]
+     [g/line-based-grid-col-row-short [:p "c"] "#333333" "#96CCFF" [1 2 2 3]]
+     [g/line-based-grid-col-row-short [:p "d"] "#333333" "#FFDFDF" [2 3 2 3]]
+     [g/line-based-grid-col-row-short [:p "e"] "#333333" "#AAAAAA" [4 5 1 3]]]]])
+       
      
     
 
